@@ -39,7 +39,7 @@ export default function Canvas() {
         onDragOver={onDragOver}
         nodeTypes={nodeTypes}
       >
-        <Background variant={BackgroundVariant.Dots} gap={16} size={1} color="#e2e8f0" />
+        <Background variant={BackgroundVariant.Dots} gap={16} size={1} color="black" />
         <Controls position="bottom-left" />
         <MiniMap position="bottom-right" />
       </ReactFlow>
